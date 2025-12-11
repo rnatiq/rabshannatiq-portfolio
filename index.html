@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabshan R. Natiq - IT & Cybersecurity Leader</title>
+    <style>
+        /* Reset & Base Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        
+        /* Layout */
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background: #1a2b3c; color: white; padding: 30px 0; text-align: center; }
+        section { padding: 60px 0; background: white; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        
+        /* Typography */
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        h2 { font-size: 1.8em; color: #1a2b3c; margin-bottom: 20px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h3 { font-size: 1.3em; color: #444; margin: 15px 0 10px; }
+        p { margin-bottom: 15px; }
+        
+        /* Timeline */
+        .timeline { position: relative; max-width: 800px; margin: 30px auto; }
+        .timeline::after { content: ''; position: absolute; width: 6px; background: #1a2b3c; top: 0; bottom: 0; left: 50%; margin-left: -3px; }
+        .timeline-item { position: relative; width: 50%; padding: 20px 30px; margin: 20px 0; }
+        .timeline-item.left { left: 0; text-align: right; padding-right: 50px; }
+        .timeline-item.right { left: 50%; text-align: left; padding-left: 50px; }
+        .timeline-item::after { content: ''; position: absolute; width: 20px; height: 20px; background: #1a2b3c; border-radius: 50%; top: 15px; }
+        .timeline-item.left::after { right: -9px; }
+        .timeline-item.right::after { left: -9px; }
+        
+        /* Skills */
+        .skills { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 20px; }
+        .skill { background: #1a2b3c; color: white; padding: 8px 15px; border-radius: 20px; font-size: 0.9em; }
+        
+        /* Footer */
+        footer { background: #1a2b3c; color: white; text-align: center; padding: 20px; }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .timeline-item { width: 100%; left: 0 !important; text-align: left !important; padding: 20px; }
+            .timeline-item::after { left: 15px !important; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rabshan R. Natiq</h1>
+            <p>Visionary IT & Cybersecurity Executive | 25+ Years of Global Leadership</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Professional Summary</h2>
+            <p>Driving secure digital transformation, GRC-aligned infrastructure, and resilient enterprise operations across banking, healthcare, logistics, and industrial sectors. Proven expertise in ISO/IEC 27001, HIPAA compliance, core banking modernization, and cloud-ready cybersecurity.</p>
+            
+            <div class="skills">
+                <div class="skill">Cybersecurity Governance</div>
+                <div class="skill">ISO 27001</div>
+                <div class="skill">HIPAA Compliance</div>
+                <div class="skill">GRC Frameworks</div>
+                <div class="skill">Cloud Infrastructure</div>
+                <div class="skill">Disaster Recovery</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Career Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <h3>Independent Cybersecurity Consultant</h3>
+                    <p><em>2025 – Present | Pakistan</em></p>
+                    <p>Advising startups/SMEs on GRC, ISO 27001, HIPAA, and secure digital transformation. Serving as Virtual CISO for healthcare and tech ventures.</p>
+                </div>
+                <div class="timeline-item right">
+                    <h3>Senior Consultant, Securehops Pvt. Ltd</h3>
+                    <p><em>2017 – 2024 | Lahore, Pakistan</em></p>
+                    <p>Launched HIPAA-compliant healthcare centers and next-gen educational institutions. Built on-prem SOC with Splunk (SIEM) and Wazuh (XDR).</p>
+                </div>
+                <div class="timeline-item left">
+                    <h3>Senior Infrastructure Consultant, Securehops (Qatar)</h3>
+                    <p><em>2011 – 2016 | Doha, Qatar</em></p>
+                    <p>Deployed integrated security & IT infrastructure for Maersk Line, Al Jazeera, and Johnson Controls. Led zero-downtime data center migrations.</p>
+                </div>
+                <div class="timeline-item right">
+                    <h3>IT Infrastructure & Cybersecurity Leader, Doha Bank</h3>
+                    <p><em>1995 – 2010 | Doha, Qatar</em></p>
+                    <p>Modernized core banking systems (COBOL to Oracle), achieved ISO 27001 certification, and directed Y2K readiness across 35+ branches.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>CISSP</strong> – Certified Information Systems Security Professional</li>
+                <li><strong>Proofpoint Certified Identity Threat Specialist</strong></li>
+                <li><strong>Proofpoint Certified AI/ML Security Specialist</strong></li>
+                <li><strong>(ISC)² Cybersecurity Exam Development Volunteer</strong></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Rabshan R. Natiq | <a href="mailto:rabshan.natiq@gmail.com">Contact</a> | <a href="https://linkedin.com/in/rabshannnatiq" target="_blank">LinkedIn</a></p>
+        </div>
+    </footer>
+</body>
+</html>
